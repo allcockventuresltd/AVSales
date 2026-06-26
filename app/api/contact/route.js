@@ -43,8 +43,8 @@ export async function POST(request) {
       `,
     })
   } catch (err) {
-    console.error('Email send failed:', err)
-    return NextResponse.json({ success: false }, { status: 500 })
+    console.error('Email send failed:', err.message, err.code, err.response)
+    return NextResponse.json({ success: false, error: err.message }, { status: 500 })
   }
 
   return NextResponse.json({ success: true })
