@@ -60,7 +60,7 @@ ul { list-style: none; }
 }
 
 .section-label {
-  font-size: 0.68rem;
+  font-size: 0.8rem;
   font-weight: 500;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -373,7 +373,7 @@ ul { list-style: none; }
 }
 
 .hero__eyebrow {
-  font-size: 0.67rem;
+  font-size: 0.8rem;
   font-weight: 500;
   letter-spacing: 3.5px;
   text-transform: uppercase;

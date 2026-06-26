@@ -28,11 +28,11 @@ export default function Nav() {
         <div className="container">
           <div className="nav__inner">
 
-            <a href="#home" className="nav__logo" onClick={(e) => scrollTo(e, 'home')} aria-label="AV Sales Consultancy — home">
-              <Image src="/images/logo.png" alt="AV Sales Consultancy logo" width={54} height={54} className="nav__logo-img" priority />
+            <a href="#home" className="nav__logo" onClick={(e) => scrollTo(e, 'home')} aria-label="AV Sales Consulting — home">
+              <Image src="/images/logo.png" alt="AV Sales Consulting logo" width={54} height={54} className="nav__logo-img" priority />
               <span className="nav__logo-wordmark">
                 <span className="nav__logo-name">AV Sales</span>
-                <span className="nav__logo-sub">Consultancy</span>
+                <span className="nav__logo-sub">Consulting</span>
               </span>
             </a>
 

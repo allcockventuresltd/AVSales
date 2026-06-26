@@ -6,11 +6,11 @@ export default function Footer() {
       <div className="container">
         <div className="footer__main">
 
-          <a href="#home" className="nav__logo" aria-label="AV Sales Consultancy — back to top">
-            <Image src="/images/logo.png" alt="AV Sales Consultancy logo" width={40} height={40} className="nav__logo-img" />
+          <a href="#home" className="nav__logo" aria-label="AV Sales Consulting — back to top">
+            <Image src="/images/logo.png" alt="AV Sales Consulting logo" width={40} height={40} className="nav__logo-img" />
             <span className="nav__logo-wordmark">
               <span className="nav__logo-name">AV Sales</span>
-              <span className="nav__logo-sub">Consultancy</span>
+              <span className="nav__logo-sub">Consulting</span>
             </span>
           </a>
 
@@ -29,7 +29,7 @@ export default function Footer() {
         </div>
 
         <div className="footer__bottom">
-          <span>&copy; 2026 AV Sales Consultancy. All rights reserved.</span>
+          <span>&copy; 2026 AV Sales Consulting Ltd. All rights reserved.</span>
           <span>Registered in England &amp; Wales</span>
         </div>
       </div>

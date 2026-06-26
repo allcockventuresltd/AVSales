@@ -1,18 +1,18 @@
 const testimonials = [
   {
-    text: "AV Sales Consultancy transformed our pipeline in under 90 days. The ROI was incredible — we saw a measurable impact on revenue within weeks of them starting.",
-    author: 'Managing Director',
+    text: "Pete brings an exceptional mix of strategic thinking and genuine people skills - he knows how to open doors, but more importantly, how to build lasting relationships that convert into real opportunities.",
+    author: 'Senior Sales Executive',
     role: 'B2B SaaS Company',
   },
   {
-    text: "They felt like a genuine extension of our own team. Genuinely invested in our success and brought energy and expertise we didn't have in-house.",
-    author: 'Chief Executive Officer',
-    role: 'Professional Services Firm',
+    text: "Pete is highly focused to deliver successful projects whilst also having some of the very best interpersonal skills I have seen in my career. He is adaptable to change and highly resilient which is a key strength.",
+    author: 'Sales Director',
+    role: 'B2B SaaS Company',
   },
   {
-    text: 'Our sales conversion rate increased by 40% after working with AV. Structured, practical, and relentlessly focused on results. Highly recommended.',
-    author: 'Sales Director',
-    role: 'Manufacturing Business',
+    text: "Pete is the best salesperson I have ever had the pleasure to work with in my career. He is outstanding at all aspects of the sales process and working with all prospects.",
+    author: 'Head of Strategy',
+    role: 'Digital Marketing Agency',
   },
 ]
 

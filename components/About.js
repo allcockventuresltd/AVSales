@@ -40,29 +40,29 @@ export default function About() {
             <p className="section-label">Who We Are</p>
             <h2 className="section-heading">Your Partner in Sales Growth</h2>
             <p className="about__intro">
-              AV Sales Consultancy is a specialist sales consultancy founded to help businesses of all sizes unlock their full revenue potential. With deep expertise across B2B sales strategy, pipeline development, and team performance, we embed ourselves in your business to deliver measurable, lasting results.
+              AV Sales Consulting is a specialist sales consultancy founded to help businesses of all sizes unlock their full revenue potential. With deep expertise across B2B sales strategy, pipeline development, and team performance, we embed ourselves in your business to deliver measurable, lasting results.
             </p>
             <p className="about__intro">
-              We&rsquo;re not just advisors &mdash; we&rsquo;re hands-on partners who roll up our sleeves and get results.
+              We&rsquo;re not just advisors, we&rsquo;re hands-on partners who roll up our sleeves and get results.
             </p>
           </div>
 
           <div className="about__stats fade-up">
             <div className="stat-card">
-              <StatCard target={10} suffix="+" />
-              <div className="stat-card__label">Years Sales Expertise</div>
+              <StatCard target={15} suffix="+" />
+              <div className="stat-card__label">Years Experience</div>
             </div>
             <div className="stat-card">
-              <StatCard target={50} suffix="+" />
-              <div className="stat-card__label">Clients Served</div>
-            </div>
-            <div className="stat-card">
-              <StatCard prefix="£" text="Multi-Million" />
+              <StatCard prefix="£" target={5} suffix="M+" />
               <div className="stat-card__label">Revenue Generated</div>
             </div>
             <div className="stat-card">
-              <StatCard target={100} suffix="%" />
-              <div className="stat-card__label">UK-Based Team</div>
+              <StatCard text="Board-Level" />
+              <div className="stat-card__label">Stakeholder Engagement</div>
+            </div>
+            <div className="stat-card">
+              <StatCard text="Complex B2B" />
+              <div className="stat-card__label">Sales &amp; Growth Strategy</div>
             </div>
           </div>
 

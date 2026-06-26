@@ -1,8 +1,8 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'AV Sales Consultancy | B2B Sales Experts',
-  description: 'AV Sales Consultancy — Driving Revenue, Building Relationships, Delivering Results. B2B sales consultancy for ambitious UK businesses.',
+  title: 'AV Sales Consulting | B2B Sales Experts',
+  description: 'AV Sales Consulting — Driving Revenue, Building Relationships, Delivering Results. B2B sales consulting for ambitious UK businesses.',
 }
 
 export default function RootLayout({ children }) {

@@ -1,15 +1,48 @@
 import { NextResponse } from 'next/server'
+import nodemailer from 'nodemailer'
 
 export async function POST(request) {
   const { name, email, company, phone, message } = await request.json()
 
-  console.log('--- New Contact Submission ---')
-  console.log(`Name:    ${name}`)
-  console.log(`Email:   ${email}`)
-  console.log(`Company: ${company}`)
-  console.log(`Phone:   ${phone || 'Not provided'}`)
-  console.log(`Message: ${message}`)
-  console.log('------------------------------')
+  try {
+    const transporter = nodemailer.createTransport({
+      host: process.env.SMTP_HOST,
+      port: Number(process.env.SMTP_PORT) || 587,
+      secure: false,
+      auth: {
+        user: process.env.SMTP_USER,
+        pass: process.env.SMTP_PASS,
+      },
+    })
+
+    await transporter.sendMail({
+      from: `"AV Sales Consulting Website" <${process.env.SMTP_USER}>`,
+      to: 'pete@avsalesconsulting.com',
+      replyTo: email,
+      subject: `New enquiry from ${name} — ${company}`,
+      text: [
+        `Name:    ${name}`,
+        `Email:   ${email}`,
+        `Company: ${company}`,
+        `Phone:   ${phone || 'Not provided'}`,
+        '',
+        `Message:`,
+        message,
+      ].join('\n'),
+      html: `
+        <p><strong>Name:</strong> ${name}</p>
+        <p><strong>Email:</strong> <a href="mailto:${email}">${email}</a></p>
+        <p><strong>Company:</strong> ${company}</p>
+        <p><strong>Phone:</strong> ${phone || 'Not provided'}</p>
+        <hr/>
+        <p><strong>Message:</strong></p>
+        <p style="white-space:pre-wrap">${message}</p>
+      `,
+    })
+  } catch (err) {
+    console.error('Email send failed:', err)
+    return NextResponse.json({ success: false }, { status: 500 })
+  }
 
   return NextResponse.json({ success: true })
 }
