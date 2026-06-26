@@ -10,7 +10,7 @@ const services = [
   },
   {
     title: 'Sales Strategy & Planning',
-    desc: 'We audit your existing sales process and build a bespoke strategy aligned to your growth targets — removing friction and identifying the fastest path to revenue.',
+    desc: 'We audit your existing sales process and build a bespoke strategy aligned to your growth targets, removing friction and identifying the fastest path to revenue.',
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M2 20h20"/><path d="M5 20V10l7-7 7 7v10"/><rect x="9" y="14" width="6" height="6"/>

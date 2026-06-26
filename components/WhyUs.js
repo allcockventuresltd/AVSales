@@ -1,7 +1,7 @@
 const reasons = [
   {
     title: 'Hands-On Partnership',
-    desc: "We don't write reports and disappear. We work inside your business until we see results — as invested in your success as you are.",
+    desc: "We don't write reports and disappear. We work inside your business until we see results, as invested in your success as you are.",
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
@@ -32,7 +32,7 @@ const reasons = [
   },
   {
     title: 'No Long-Term Lock-In',
-    desc: 'Flexible engagements designed around your needs, not ours. We earn our place by delivering value — every single month.',
+    desc: 'Flexible engagements designed around your needs, not ours. We earn our place by delivering value, every single month.',
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
@@ -44,11 +44,11 @@ const reasons = [
 
 export default function WhyUs() {
   return (
-    <section id="why" className="why" aria-label="Why choose AV Sales Consultancy">
+    <section id="why" className="why" aria-label="Why choose AV Sales Consulting">
       <div className="container">
         <div className="section-header section-header--center fade-up">
           <p className="section-label section-label--light">Why Choose Us</p>
-          <h2 className="section-heading section-heading--white">Why AV Sales Consultancy?</h2>
+          <h2 className="section-heading section-heading--white">Why AV Sales Consulting?</h2>
         </div>
         <div className="why__grid">
           {reasons.map((r) => (

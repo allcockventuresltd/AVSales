@@ -32,7 +32,7 @@ function StatCard({ prefix = '', target, suffix = '', text }) {
 
 export default function About() {
   return (
-    <section id="about" className="about" aria-label="About AV Sales Consultancy">
+    <section id="about" className="about" aria-label="About AV Sales Consulting">
       <div className="container">
         <div className="about__grid">
 

@@ -19,7 +19,7 @@ export async function POST(request) {
       from: `"AV Sales Consulting Website" <${process.env.SMTP_USER}>`,
       to: 'pete@avsalesconsulting.com',
       replyTo: email,
-      subject: `New enquiry from ${name} — ${company}`,
+      subject: `New enquiry from ${name} - ${company}`,
       text: [
         `Name:    ${name}`,
         `Email:   ${email}`,
