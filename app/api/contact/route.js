@@ -7,10 +7,11 @@ export async function POST(request) {
   const { name, email, company, phone, message } = await request.json()
 
   try {
+    const port = Number(process.env.SMTP_PORT) || 587
     const transporter = nodemailer.createTransport({
       host: process.env.SMTP_HOST,
-      port: Number(process.env.SMTP_PORT) || 587,
-      secure: false,
+      port,
+      secure: port === 465,
       auth: {
         user: process.env.SMTP_USER,
         pass: process.env.SMTP_PASS,
@@ -18,7 +19,7 @@ export async function POST(request) {
     })
 
     await transporter.sendMail({
-      from: `"AV Sales Consulting Website" <${process.env.SMTP_USER}>`,
+      from: `"AV Sales Consulting Website" <${process.env.SMTP_FROM || process.env.SMTP_USER}>`,
       to: 'pete@avsalesconsulting.com',
       replyTo: email,
       subject: `New enquiry from ${name} - ${company}`,
