@@ -35,8 +35,9 @@ export default function ContactForm() {
       const data = await res.json()
       if (data.success) {
         setStatus('success')
-        if (typeof window !== 'undefined' && window.gtag) {
-          window.gtag('event', 'generate_lead', { event_category: 'contact', event_label: 'form_submission' })
+        if (typeof window !== 'undefined') {
+          window.dataLayer = window.dataLayer || []
+          window.dataLayer.push({ event: 'form_submission' })
         }
       } else throw new Error()
     } catch {

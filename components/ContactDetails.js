@@ -2,8 +2,9 @@
 
 export default function ContactDetails() {
   const track = (method) => {
-    if (typeof window !== 'undefined' && window.gtag) {
-      window.gtag('event', 'contact', { method })
+    if (typeof window !== 'undefined') {
+      window.dataLayer = window.dataLayer || []
+      window.dataLayer.push({ event: method === 'email' ? 'email_click' : 'phone_click' })
     }
   }
 
