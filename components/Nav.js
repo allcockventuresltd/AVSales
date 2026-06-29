@@ -37,7 +37,7 @@ export default function Nav() {
             </a>
 
             <ul className="nav__links" role="list">
-              {[['home','Home'],['about','About'],['services','Services'],['how-we-work','How We Work'],['why','Why Us']].map(([id, label]) => (
+              {[['home','Home'],['about','About'],['services','Services'],['why','Why Us'],['how-we-work','How We Work']].map(([id, label]) => (
                 <li key={id}><a href={`#${id}`} onClick={(e) => scrollTo(e, id)}>{label}</a></li>
               ))}
               <li>
@@ -58,7 +58,7 @@ export default function Nav() {
         </div>
 
         <nav className={`nav__mobile${open ? ' open' : ''}`} id="mobileNav" aria-label="Mobile navigation">
-          {[['home','Home'],['about','About'],['services','Services'],['how-we-work','How We Work'],['why','Why Us'],['contact','Contact']].map(([id, label]) => (
+          {[['home','Home'],['about','About'],['services','Services'],['why','Why Us'],['how-we-work','How We Work'],['contact','Contact']].map(([id, label]) => (
             <a key={id} href={`#${id}`} onClick={(e) => scrollTo(e, id)}>{label}</a>
           ))}
         </nav>

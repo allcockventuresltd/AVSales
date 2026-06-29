@@ -19,8 +19,8 @@ export default function HowWeWork() {
       <div className="container">
 
         <div className="section-header fade-up">
-          <p className="section-label">Flexible Engagements</p>
-          <h2 className="section-heading">How We Work</h2>
+          <p className="section-label">How We Work</p>
+          <h2 className="section-heading">Flexible Engagements</h2>
         </div>
 
         <p className="how-we-work__intro fade-up">

@@ -19,10 +19,10 @@ export default function Home() {
         <Hero />
         <LogoBanner />
         <About />
-        <MeetPete />
         <Services />
-        <HowWeWork />
         <WhyUs />
+        <HowWeWork />
+        <MeetPete />
         <Testimonials />
         <Contact />
       </main>
