@@ -18,3 +18,10 @@ dev-err.txt
 # OS
 .DS_Store
 Thumbs.db
+
+# Claude Code internals
+.claude/
+
+# Legacy Express server (pre-Next.js)
+server.js
+views/
