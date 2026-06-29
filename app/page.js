@@ -2,7 +2,9 @@ import Nav from '@/components/Nav'
 import Hero from '@/components/Hero'
 import LogoBanner from '@/components/LogoBanner'
 import About from '@/components/About'
+import MeetPete from '@/components/MeetPete'
 import Services from '@/components/Services'
+import HowWeWork from '@/components/HowWeWork'
 import WhyUs from '@/components/WhyUs'
 import Testimonials from '@/components/Testimonials'
 import Contact from '@/components/Contact'
@@ -17,7 +19,9 @@ export default function Home() {
         <Hero />
         <LogoBanner />
         <About />
+        <MeetPete />
         <Services />
+        <HowWeWork />
         <WhyUs />
         <Testimonials />
         <Contact />

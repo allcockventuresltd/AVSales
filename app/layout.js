@@ -2,7 +2,7 @@ import './globals.css'
 
 export const metadata = {
   title: 'AV Sales Consulting | B2B Sales Experts',
-  description: 'AV Sales Consulting: Driving Revenue, Building Relationships, Delivering Results. B2B sales consulting for ambitious UK businesses.',
+  description: 'AV Sales Consulting provides expert B2B sales consulting, fractional sales director, and interim sales leadership services for ambitious UK businesses. Driving revenue, building relationships, delivering results.',
 }
 
 export default function RootLayout({ children }) {
