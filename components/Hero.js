@@ -14,8 +14,7 @@ export default function Hero() {
             AV Sales Consulting partners with ambitious businesses to accelerate sales performance and build high-converting pipelines.
           </p>
           <div className="hero__ctas">
-            {/* TODO: Pete — replace data-calendly-url value with your Calendly link when ready */}
-            <a href="#contact" className="btn btn--primary" data-calendly-url="">Book a Discovery Call</a>
+            <a href="https://calendly.com/pete-avsalesconsulting/30min" className="btn btn--primary" target="_blank" rel="noopener noreferrer">Book a Discovery Call</a>
             <a href="#services" className="btn btn--ghost">Explore Our Services</a>
           </div>
         </div>
