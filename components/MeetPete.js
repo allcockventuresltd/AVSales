@@ -22,10 +22,10 @@ export default function MeetPete() {
             <h2 className="section-heading" style={{ marginBottom: '28px' }}>Pete Allcock</h2>
 
             <p className="meet-pete__bio">
-              Pete Allcock is the founder of AV Sales Consulting, with over 15 years of B2B commercial experience spanning enterprise SaaS, MarTech, AdTech, automotive, and retail. He has sold into globally recognised brands — including Vodafone, Jaguar Land Rover, Sainsbury&rsquo;s Bank, Volvo, Sephora, and Decathlon, and more.
+              Pete Allcock is the founder of AV Sales Consulting, with over 15 years of B2B commercial experience spanning enterprise SaaS, MarTech, AdTech, automotive, and retail. He has sold into globally recognised brands including Vodafone, Jaguar Land Rover, Sainsbury&rsquo;s Bank, Volvo, Sephora, and Decathlon.
             </p>
             <p className="meet-pete__bio">
-              Comfortable operating across both leadership and senior individual contributor roles, Pete brings the same rigour to a six-figure pipeline build as to mentoring a commercial team. He founded AV Sales Consulting to give ambitious businesses direct access to that experience — without the overhead of a full-time hire.
+              Comfortable operating across both leadership and senior individual contributor roles, Pete brings the same rigour to a six-figure pipeline build as to mentoring a commercial team. He founded AV Sales Consulting to give ambitious businesses direct access to that experience, without the overhead of a full-time hire.
             </p>
 
             <a

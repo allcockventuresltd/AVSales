@@ -43,7 +43,7 @@ export default function About() {
               AV Sales Consulting is a specialist sales consultancy founded to help businesses of all sizes unlock their full revenue potential. With deep expertise across B2B sales strategy, pipeline development, and team performance, we embed ourselves in your business to deliver measurable, lasting results.
             </p>
             <p className="about__intro">
-              We don&rsquo;t just offer advice — we embed ourselves in your business, drive the actions, and stay accountable for the results.
+              We don&rsquo;t just offer advice. We embed ourselves in your business, drive the actions, and stay accountable for the results.
             </p>
           </div>
 
